@@ -51,18 +51,18 @@
 				</div>
 				<div class="col-md-7 bg-white p-4">
 					<div class="heading-block border-bottom-0 mb-3">
-						<h3 class="font-secondary nott ">Join Our Newsletter &amp; Get <span class="text-danger">40%</span> Off your First Order</h3>
-						<span>Get Latest Fashion Updates &amp; Offers</span>
+						<h3 class="font-secondary nott ">Junte-se e obtenha <span class="text-danger">40%</span> de desconto no seu primeiro pedido</h3>
+						<span>Receba as últimas atualizações de moda &amp; Ofertas</span>
 					</div>
 					<div class="widget-subscribe-form-result"></div>
 					<form class="widget-subscribe-form2 mb-2" action="include/subscribe.php" method="post">
-						<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email Address..">
+						<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Insira o seu endereço de email..">
 						<div class="d-flex justify-content-between align-items-center mt-1">
-							<button class="button button-dark  bg-dark text-white ms-0" type="submit">Subscribe</button>
-							<a href="#" class="btn-link" onClick="$.magnificPopup.close();return false;">Don't Show me</a>
+							<button class="button button-dark  bg-dark text-white ms-0" type="submit">Inscrever</button>
+							<a href="#" class="btn-link" onClick="$.magnificPopup.close();return false;">Não me mostre</a>
 						</div>
 					</form>
-					<small class="mb-0 fst-italic text-black-50">*We also hate Spam &amp; Junk Emails.</small>
+					
 				</div>
 			</div>
 		</div>
@@ -111,9 +111,7 @@
 
 				<div class="row justify-content-between align-items-center">
 
-					<div class="col-12 col-lg-auto">
-						<p class="mb-0 d-flex justify-content-center justify-content-lg-start py-3 py-lg-0"><strong>Free U.S. Shipping on Order above $99. Easy Returns.</strong></p>
-					</div>
+					
 
 					<div class="col-12 col-lg-auto d-none d-lg-flex">
 
@@ -154,9 +152,7 @@
 
 							<!-- Top Search
 							============================================= -->
-							<div id="top-account">
-								<a href="#modal-register" data-lightbox="inline" ><i class="icon-line2-user me-1 position-relative" style="top: 1px;"></i><span class="d-none d-sm-inline-block font-primary fw-medium">Login</span></a>
-							</div><!-- #top-search end -->
+							
 
 							<!-- Top Cart
 							============================================= -->
@@ -164,7 +160,7 @@
 								<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
 								<div class="top-cart-content">
 									<div class="top-cart-title">
-										<h4>Shopping Cart</h4>
+										<h4>Carrinho de Compras</h4>
 									</div>
 									<div class="top-cart-items">
 										<div class="top-cart-item">
@@ -174,7 +170,7 @@
 											<div class="top-cart-item-desc">
 												<div class="top-cart-item-desc-title">
 													<a href="#">Blue Round-Neck Tshirt with a Button</a>
-													<span class="top-cart-item-price d-block">$19.99</span>
+													<span class="top-cart-item-price d-block">R$19.99</span>
 												</div>
 												<div class="top-cart-item-quantity">x 2</div>
 											</div>
@@ -186,24 +182,22 @@
 											<div class="top-cart-item-desc">
 												<div class="top-cart-item-desc-title">
 													<a href="#">Light Blue Denim Dress</a>
-													<span class="top-cart-item-price d-block">$24.99</span>
+													<span class="top-cart-item-price d-block">R$24.99</span>
 												</div>
 												<div class="top-cart-item-quantity">x 3</div>
 											</div>
 										</div>
 									</div>
 									<div class="top-cart-action">
-										<span class="top-checkout-price">$114.95</span>
-										<a href="#" class="button button-3d button-small m-0">View Cart</a>
+										<span class="top-checkout-price">R$114.95</span>
+										<a href="#" class="button button-3d button-small m-0">Ver carrinho</a>
 									</div>
 								</div>
 							</div><!-- #top-cart end -->
 
 							<!-- Top Search
 							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
+							
 
 						</div>
 
@@ -404,7 +398,7 @@
 							<a href="#" style="background: url('{{ asset('assests/site/images/categories/2-1.jpg') }}') no-repeat right center; background-size: cover;">
 								<div class="vertical-middle dark center">
 									<div class="heading-block m-0 border-0">
-										<h3 class="nott fw-semibold ls0">For Him</h3>
+										<h3 class="nott fw-semibold ls0">Para Ele</h3>
 									</div>
 								</div>
 							</a>
@@ -413,7 +407,7 @@
 							<a href="#" style="background: url('{{ asset('assests/site/images/categories/1.jpg') }}') no-repeat center right; background-size: cover;">
 								<div class="vertical-middle dark center">
 									<div class="heading-block m-0 border-0">
-										<h3 class="nott fw-semibold ls0">For Her</h3>
+										<h3 class="nott fw-semibold ls0">Para Ela</h3>
 									</div>
 								</div>
 							</a>
@@ -466,7 +460,7 @@
 								<div class="product-image">
 									<a href="#"><img src="{{ asset('assests/site/images/items/featured/1.jpg') }}" alt="Round Neck T-shirts"></a>
 									<a href="#"><img src="{{ asset('assests/site/images/items/featured/1-1.jpg') }}" alt="Round Neck T-shirts"></a>
-									<div class="sale-flash badge bg-danger p-2">Sale!</div>
+									<div class="sale-flash badge bg-danger p-2">Oferta!</div>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -477,7 +471,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Round Neck Solid Light Blue Colour T-shirts</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$24.99</del> <ins>$12.49</ins></div>
+									<div class="product-price font-primary"><del class="me-1">R$24.99</del> <ins>R$12.49</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -494,19 +488,18 @@
 						<div class="oc-item">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="{{ asset('assests/site/images/items/featured/2.jpg') }}" alt="Navy Blue Dress"></a>
 									<a href="#"><img src="{{ asset('assests/site/images/items/featured/2-1.jpg') }}" alt="Navy Blue Dress"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
-											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="icon-line-expand"></i></a>
+											<a href="shop/demos/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="icon-line-expand"></i></a>
 										</div>
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Navy Blue Dress For Women</a></h3></div>
-									<div class="product-price font-primary"><ins>$19.99</ins></div>
+									<div class="product-price font-primary"><ins>R$19.99</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -535,7 +528,7 @@
 								<div class="sale-flash badge bg-secondary p-2">Out of Stock!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">White athletic shoe</a></h3></div>
-									<div class="product-price font-primary"><ins>$35.00</ins></div>
+									<div class="product-price font-primary"><ins>R$35.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -556,9 +549,9 @@
 										<div class="flexslider">
 											<div class="slider-wrap">
 												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/featured/4.jpg') }}" alt="T-shirts"></a></div>
-												<div class="slide"><a href="#"><img src="demos/shop/images/items/featured/4-1.jpg" alt="T-shirts"></a></div>
-												<div class="slide"><a href="#"><img src="demos/shop/images/items/featured/4-2.jpg" alt="T-shirts"></a></div>
-												<div class="slide"><a href="#"><img src="demos/shop/images/items/featured/4-3.jpg" alt="T-shirts"></a></div>
+												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/featured/4-1.jpg') }}" alt="T-shirts"></a></div>
+												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/featured/4-2.jpg') }}" alt="T-shirts"></a></div>
+												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/featured/4-3.jpg') }}" alt="T-shirts"></a></div>
 											</div>
 										</div>
 									</div>
@@ -570,10 +563,10 @@
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
-								<div class="sale-flash badge bg-danger p-2">Sale!</div>
+								<div class="sale-flash badge bg-danger p-2">Oferta!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Navy blue T-shirt, Round neck, Short Sleeves</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$27.99</del> <ins>$21.00</ins></div>
+									<div class="product-price font-primary"><del class="me-1">R$27.99</del> <ins>R$21.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -590,7 +583,7 @@
 						<div class="oc-item">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/featured/3.jpg" alt="T-shirts"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/featured/3.jpg') }}" alt="T-shirts"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -601,7 +594,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Women Black T-Shirt</a></h3></div>
-									<div class="product-price font-primary"><ins>$13.00</ins></div>
+									<div class="product-price font-primary"><ins>R$13.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -633,10 +626,10 @@
 										</div>
 									</div>
 									<div class="col-6">
-										<a href="demos/shop/images/sections/1-2.jpg" data-lightbox="image"><img src="demos/shop/images/sections/1-2.jpg" alt="Image"></a>
+										<a href="demos/shop/images/sections/1-2.jpg" data-lightbox="image"><img src="{{ asset('assests/site/images/sections/1-2.jpg') }}" alt="Image"></a>
 									</div>
 									<div class="col-6">
-										<a href="demos/shop/images/sections/1-3.jpg" data-lightbox="image"><img src="demos/shop/images/sections/1-3.jpg" alt="Image"></a>
+										<a href="demos/shop/images/sections/1-3.jpg" data-lightbox="image"><img src="{{ asset('assests/site/images/sections/1-3.jpg') }}" alt="Image"></a>
 									</div>
 								</div>
 							</div>
@@ -668,9 +661,9 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/1.jpg" alt="Image 1"></a>
-									<a href="#"><img src="demos/shop/images/items/new/1-1.jpg" alt="Image 1"></a>
-									<div class="sale-flash badge bg-danger p-2">Sale!</div>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/1.jpg') }}" alt="Image 1"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/1-1.jpg') }}" alt="Image 1"></a>
+									<div class="sale-flash badge bg-danger p-2">Oferta!</div>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -681,7 +674,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Light Blue Denim</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$24.99</del> <ins>$12.49</ins></div>
+									<div class="product-price font-primary"><del class="me-1">R$24.99</del> <ins>R$12.49</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -698,8 +691,8 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/2.jpg" alt="Image 2"></a>
-									<a href="#"><img src="demos/shop/images/items/new/2-1.jpg" alt="Image 2"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/2.jpg') }}" alt="Image 2"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/2-1.jpg') }}" alt="Image 2"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -710,7 +703,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Deep Blue Sport Shoe</a></h3></div>
-									<div class="product-price font-primary"><ins>$19.99</ins></div>
+									<div class="product-price font-primary"><ins>R$19.99</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -727,7 +720,8 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/4.jpg" alt="Image 3"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/3.jpg') }}" alt="Image 3"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/3-1.jpg') }}" alt="Image 3"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -736,10 +730,10 @@
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
-								<div class="sale-flash badge bg-danger p-2">Sale!</div>
+								<div class="sale-flash badge bg-danger p-2">Oferta!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Printed Men Short</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$41.99</del> <ins>$35.00</ins></div>
+									<div class="product-price font-primary"><del class="me-1">R$41.99</del> <ins>$35.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -759,8 +753,7 @@
 									<div class="fslider" data-arrows="false" data-autoplay="4500">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="#"><img src="demos/shop/images/items/new/3.jpg" alt="Image 4"></a></div>
-												<div class="slide"><a href="#"><img src="demos/shop/images/items/new/3-1.jpg" alt="Image 4"></a></div>
+												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/new/4.jpg') }}" alt="Image 4"></a></div>
 											</div>
 										</div>
 									</div>
@@ -774,7 +767,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Women Sportd Track Pant</a></h3></div>
-									<div class="product-price font-primary"><ins>$21.00</ins></div>
+									<div class="product-price font-primary"><ins>R$21.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -791,8 +784,13 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/6.jpg" alt="Image 5"></a>
-									<a href="#"><img src="demos/shop/images/items/new/6-1.jpg" alt="Image 5"></a>
+									<div class="fslider" data-arrows="false" data-autoplay="4500">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/new/5.jpg') }}" alt="Image 4"></a></div>
+											</div>
+										</div>
+									</div>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -802,13 +800,13 @@
 									</div>
 								</div>
 								<div class="product-desc">
-									<div class="product-title mb-1"><h3><a href="#">Cool Printed Dress</a></h3></div>
-									<div class="product-price font-primary"><ins>$31.49</ins></div>
+									<div class="product-title mb-1"><h3><a href="#">Women Sportd Track Pant</a></h3></div>
+									<div class="product-price font-primary"><ins>R$21.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
-										<i class="icon-star3"></i>
+										<i class="icon-star-half-full"></i>
 										<i class="icon-star-empty"></i>
 									</div>
 								</div>
@@ -820,7 +818,8 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/5.jpg" alt="Image 6"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/6.jpg') }}" alt="Image 6"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/6-1.jpg') }}" alt="Image 6"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -829,10 +828,10 @@
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
-								<div class="sale-flash badge bg-danger p-2">Sale!</div>
+								<div class="sale-flash badge bg-danger p-2">Oferta!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Red Stripe Girls Top</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$41.99</del> <ins>$35.00</ins></div>
+									<div class="product-price font-primary"><del class="me-1">R$41.99</del> <ins>R$35.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -849,7 +848,7 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/7.jpg" alt="Image 7"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/7.jpg') }}" alt="Image 7"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -860,7 +859,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Dark Brown Lady Bag for Women</a></h3></div>
-									<div class="product-price font-primary"><ins>$49.49</ins></div>
+									<div class="product-price font-primary"><ins>R$49.49</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -877,7 +876,7 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/8.jpg" alt="Image 8"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/8.jpg') }}" alt="Image 8"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -888,7 +887,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">UV Poection Sunglass</a></h3></div>
-									<div class="product-price font-primary"><ins>$39.99</ins></div>
+									<div class="product-price font-primary"><ins>R$39.99</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -905,8 +904,8 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/9.jpg" alt="Image 9"></a>
-									<a href="#"><img src="demos/shop/images/items/new/9-1.jpg" alt="Image 3"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/9.jpg') }}" alt="Image 9"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/9-1.jpg') }}" alt="Image 3"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -915,10 +914,10 @@
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
-								<div class="sale-flash badge bg-danger p-2">Sale!</div>
+								<div class="sale-flash badge bg-danger p-2">Oferta!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Workout Sweat T-shirt</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$21.99</del> <ins>$15.00</ins></div>
+									<div class="product-price font-primary"><del class="me-1">R$21.99</del> <ins>R$15.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -935,7 +934,7 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/10.jpg" alt="Image 10"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/10.jpg') }}" alt="Image 10"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -947,7 +946,7 @@
 								<div class="sale-flash badge bg-secondary p-2">Out of Stock!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Sky Blue Printed Bag</a></h3></div>
-									<div class="product-price font-primary"><ins>$61.49</ins></div>
+									<div class="product-price font-primary"><ins>R$61.49</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -967,8 +966,8 @@
 									<div class="fslider" data-arrows="false" data-autoplay="4500">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="#"><img src="demos/shop/images/items/new/11.jpg" alt="Image 10"></a></div>
-												<div class="slide"><a href="#"><img src="demos/shop/images/items/new/11-1.jpg" alt="Image 10"></a></div>
+												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/new/11.jpg') }}" alt="Image 10"></a></div>
+												<div class="slide"><a href="#"><img src="{{ asset('assests/site/images/items/new/11-1.jpg') }}" alt="Image 10"></a></div>
 											</div>
 										</div>
 									</div>
@@ -982,7 +981,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Blue Women Watch</a></h3></div>
-									<div class="product-price font-primary"><ins>$23.00</ins></div>
+									<div class="product-price font-primary"><ins>R$23.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
@@ -999,7 +998,7 @@
 						<div class="col-lg-2 col-md-3 col-6 px-2">
 							<div class="product">
 								<div class="product-image">
-									<a href="#"><img src="demos/shop/images/items/new/12.jpg" alt="Image 6"></a>
+									<a href="#"><img src="{{ asset('assests/site/images/items/new/12.jpg') }}" alt="Image 6"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
@@ -1010,7 +1009,7 @@
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Blue Party Shoe</a></h3></div>
-									<div class="product-price font-primary"><ins>$51.00</ins></div>
+									<div class="product-price font-primary"><ins>R$51.00</ins></div>
 									<div class="product-rating">
 										<i class="icon-star3"></i>
 										<i class="icon-star3"></i>
